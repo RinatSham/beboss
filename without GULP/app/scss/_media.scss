@@ -1,0 +1,128 @@
+@media (max-width: 1140px){
+   .company__right{
+      display: none;
+   }
+   .video__inner{
+      flex-direction: column;
+   }
+   .video__vote{
+      margin: 0 auto;
+      margin-top: 32px;
+      width: 343px;
+      text-align: center;
+   }
+}
+@media (max-width: 830px){
+   .send_section__form_info_text{
+      font-size: 13px;
+   }
+   .send_section__ask_title{
+      text-align: center;  
+   }
+   .send_section__form_info_icon{
+      margin-right: 8px;
+      width: 25px;
+      height: 27px;
+   }
+   .send_section__form{
+      margin-right: 0;
+      margin-bottom: 24px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      max-width: 100%;
+   }
+   .send_section__inner{
+      flex-direction: column;
+   }
+   .description__img:nth-child(odd){
+      padding-right: 4px;
+   }
+   .description__img:nth-child(even){
+      padding-left: 4px;
+   }
+   .description__img{
+      width: calc(50% - 4px);
+      padding-bottom: 4px;
+   }
+   .description__box{
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      max-width: 500px;
+      margin: 0 auto;
+      margin-bottom: 32px;
+   }
+   .about__price_left{
+      flex-shrink: 0;
+   }
+   .request__top{
+      justify-content: center;
+   }
+   .request__inner{
+      flex-direction: column;
+   }
+   .request__left{
+      flex-direction: column;
+      padding-bottom: 24px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      margin-bottom: 24px;
+   }
+   .request__img{
+      margin-bottom: 16px;
+      margin-right: 0;
+   }
+   .request__text{
+      text-align: center;
+   }
+}
+@media (max-width: 655px){
+   .partner__link{
+      display: block;
+      text-align: center;
+   }
+   .video__img_play_text{
+      display: none;
+   }
+   .about__price_title,
+   .title_section{
+      font-size: 18px;
+   }
+   .about__price_line{
+      flex-direction: column;
+   }
+   .about__price_left{
+      margin-bottom: 4px;
+   }
+   .video__title,
+   .partner__title{
+      font-size: 24px;
+      line-height: 32px; 
+   }
+   .video__vote_link{
+      background-color: transparent;
+      width: 60px;
+   }
+   .only_logo{
+      display: none;
+   }
+   .video__vote_links{
+      display: flex;
+      justify-content: center;
+   }
+   .video__vote_link + .video__vote_link{
+      margin-left: 8px;
+   }
+   .video__vote_count{
+      display: none;
+   }
+}
+@media (max-width: 450px){
+   .none{
+      display: none;
+   }
+   .description__img{
+      width: calc(50% - 4px);
+   }
+   .about__price_link {
+      padding: 0 45px 0 66px;
+  }
+}
