@@ -13,9 +13,6 @@
    }
 }
 @media (max-width: 830px){
-   .send_section__form_info_text{
-      font-size: 13px;
-   }
    .send_section__ask_title{
       text-align: center;  
    }
@@ -75,12 +72,45 @@
    }
 }
 @media (max-width: 655px){
+   .partner {
+      margin-top: 14px;
+   }
+   .company{
+      padding-bottom: 0;
+      border-bottom: 0;
+   }
+   .about__price_title{
+      line-height: 24px;
+   }
+   .request__page_link{
+      left: -15px;
+   }
+   .video{
+      padding-bottom: 18px;
+   }
+   .request__inner{
+      margin-top: 31px;
+      margin-bottom: 27px;
+   }
+   .video__vote_text{
+      margin-bottom: 16px;
+   }
+   .medal_box{
+      margin-bottom: 31px;
+   }
+   .medal_box__img {
+      margin-left: 16px;
+      margin-right: 5px;
+  }
    .partner__link{
       display: block;
       text-align: center;
    }
    .video__img_play_text{
       display: none;
+   }
+   .title_section{
+      margin-bottom: 19px;
    }
    .about__price_title,
    .title_section{
@@ -92,8 +122,12 @@
    .about__price_left{
       margin-bottom: 4px;
    }
+   .video__title{
+      margin-bottom: 33px;
+   }
    .video__title,
    .partner__title{
+      text-align: center;
       font-size: 24px;
       line-height: 32px; 
    }
@@ -116,11 +150,14 @@
    }
 }
 @media (max-width: 450px){
+   .partner__slider_img{
+      max-width: 300px;
+   }
    .none{
       display: none;
    }
    .description__img{
-      width: calc(50% - 4px);
+      width: 50%;
    }
    .about__price_link {
       padding: 0 45px 0 66px;
